@@ -78,13 +78,6 @@
 }
 </script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GE4WWQXVMY"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-GE4WWQXVMY');
-</script>
 
 <script>(function (w, d, s, l, i) {
         w[l] = w[l] || []; w[l].push({
@@ -1716,7 +1709,7 @@
   // Descargar modal como imagen
   function descargarModalImagen() {
     const script = document.createElement('script');
-    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+    script.src = 'https://cdn.jsdelivr.net/npm/html2canvas-pro@1.5.8/dist/html2canvas-pro.min.js';
     script.onload = function () {
       const modalContent = document.getElementById('modal-content');
       html2canvas(modalContent, {
