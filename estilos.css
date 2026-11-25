@@ -756,7 +756,6 @@ footer a { color: #fff; }
 }
 @keyframes barra { to { background-position: -200% 0; } }
 
-
 /* ---------- Animación de entrada del logo ---------- */
 .animation_back_in_rigth { animation: entradaDerecha .9s ease both; }
 @keyframes entradaDerecha {
